@@ -1,0 +1,13 @@
+Status: FAILED
+Time Taken: 1
+Size: 0
+Timestamp: Fri Mar 11 15:31:29 IST 2022
+TestStep: placeid Transfer
+Error:com.eviware.soapui.impl.wsdl.teststeps.PropertyTransferException: error: Unexpected element: CDATA
+
+----------------- Messages ------------------------------
+Error performing transfer [place] - error: Unexpected element: CDATA
+----------------------------------------------------
+place transferred [[error: Unexpected element: CDATA]] from [Add.Response] to [placeid Properties.Token]
+------------ source path -------------
+place_id

@@ -1,0 +1,15 @@
+Status: FAILED
+Time Taken: 92
+Size: 0
+Timestamp: Fri Mar 11 15:31:29 IST 2022
+TestStep: place id transfer
+Error:com.eviware.soapui.impl.wsdl.teststeps.PropertyTransferException: Error parsing source property [error: Unexpected element: CDATA]
+
+----------------- Messages ------------------------------
+Error performing transfer [placeid] - Error parsing source property [error: Unexpected element: CDATA]
+----------------------------------------------------
+placeid transferred [[Error parsing source property [error: Unexpected element: CDATA]]] from [Add.Response] to [Delete.Request]
+------------ source path -------------
+place_id
+------------ target path -------------
+place_id
